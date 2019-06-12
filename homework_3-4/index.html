@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Моя страница</title>
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+
+</head>
+<body>
+
+	<div class="name">
+
+		<form action="#" method="POST" style="text-align: center;">
+
+			<h4>Заполните данные для авторизации</h4>
+			<label><p>
+				  Введите логин: <input type="text" name="login" class="input" placeholder="логин" required="">
+			</p></label>
+			
+			<label><p>
+				Введите пароль: <input type="password" name="password" class="input" placeholder="пароль" required="">
+			</p></label>
+
+			<label><p>
+				Введите e-mail: <input type="email" name="password" class="input" placeholder="e-mail" required="">
+			</p></label>
+
+			<label><p>
+				Введите телефон: <input type="phone" name="password" class="input" placeholder="телефон" required="">
+			</p></label>
+
+			<p>
+				<label><input type="radio" name="family" value="мужской">мужской</label>
+				<label><input type="radio" name="family" value="женский">женский</label>
+			</p>
+
+			<p>
+				Ваш город: 
+				<select>
+					<option>Минск</option>
+					<option>Брест</option>
+					<option>Гродно</option>
+					<option>Витебск</option>
+					<option>Гомель</option>
+					<option>Могилев</option>
+				</select>
+			</p>
+
+			<p>
+				<label>
+				Фото <input type="file" name="file">
+				</label>
+			</p>
+
+			<label><p>
+				<input type="checkbox" name="argee"> Я согласен с условиями
+			</p></label>
+
+			<button type="submit">Войти</button>
+
+		</form>
+
+	</div>
+
+</body>
+</html>
